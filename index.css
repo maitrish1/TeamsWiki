@@ -15,7 +15,32 @@ body{
     flex-direction: row-reverse;
 }
 
-table, thead, td {
+#table1, th, td{
     border: 1px solid black;
+    border-collapse: collapse;
+}
+#table1{
+    width: 80%;
+    height: 125px;
+    margin-top: 0px;
+}
+
+#table2, thead, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+#table2{
+    width: 80%;
+    height: 10px;
+}
+
+#table3, thead, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+#table3{
+    width: 80%;
+    height: 10px;
 }
 
