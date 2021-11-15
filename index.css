@@ -15,7 +15,7 @@ body{
     flex-direction: row-reverse;
 }
 
-table, th, td {
+table, thead, td {
     border: 1px solid black;
 }
 
