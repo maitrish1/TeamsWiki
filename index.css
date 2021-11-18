@@ -2,15 +2,28 @@ body{
     font-family: 'Noto Sans', sans-serif;
     margin: 0;
 }
-.container1{
+.container0{
     background-color: rgb(230, 240, 248);
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+}
+.container1{
+   
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    align-items: center;
 }
 
 .container2{
+   
     display: flex;
     flex-direction: row-reverse;
+    width: 50%;
+    padding-right: 100px;
+    align-items: center;
+    
 }
 
 #table1, th, td{
