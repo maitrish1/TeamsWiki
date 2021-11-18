@@ -1,74 +1,87 @@
-body{
-    font-family: 'Noto Sans', sans-serif;
-    margin: 0;
+body {
+  font-family: "Noto Sans", sans-serif;
+  margin: 0;
 }
-.container0{
-    background-color: rgb(230, 240, 248);
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+.container0 {
+  background-color: rgb(230, 240, 248);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
-.container1{
-    display: flex;
-    flex-direction: row;
-    width: 50%;
-    align-items: center;
-    justify-content: center;
-    column-gap: 25px;
-}
-
-.container2{
-    display: flex;
-    flex-direction: row;
-    width: 50%;
-    align-items: center;
-    justify-content: center;
-    column-gap: 20px;
+.container1 {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+  column-gap: 25px;
 }
 
-#table1, th, td{
-    border: 1px solid black;
-    border-collapse: collapse;
+.container2 {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+  column-gap: 20px;
 }
-#table1{
-    width: 80%;
-    height: 125px;
-    margin-top: 0px;
-}
-
-#table2, thead, td{
-    border: 1px solid black;
-    border-collapse: collapse;
-}
-#table2{
-    width: 80%;
-    height: 10px;
+.burger{
+  background-color: rgb(249, 253, 255);
+  display: block;
+  padding-left: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
-#table3, thead, td{
-    border: 1px solid black;
-    border-collapse: collapse;
+#table1,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+#table1 {
+  width: 80%;
+  height: 125px;
+  margin-top: 0px;
 }
 
-#table3{
-    width: 80%;
-    height: 10px;
+#table2,
+thead,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
 }
-a{
-    text-decoration: none;
-}
-#table2 tr:nth-child(even){
-    background-color: rgb(249, 253, 255);
-}
-
-#table2 tr:nth-child(odd){
-    background-color: rgb(230, 240, 248);
+#table2 {
+  width: 80%;
+  height: 10px;
 }
 
-#table3 tr:nth-child(even){
-    background-color: rgb(249, 253, 255);
+#table3,
+thead,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
 }
 
-#table3 tr:nth-child(odd){
-    background-color: rgb(230, 240, 248);
+#table3 {
+  width: 80%;
+  height: 10px;
+}
+a {
+  text-decoration: none;
+}
+#table2 tr:nth-child(even) {
+  background-color: rgb(249, 253, 255);
+}
+
+#table2 tr:nth-child(odd) {
+  background-color: rgb(230, 240, 248);
+}
+
+#table3 tr:nth-child(even) {
+  background-color: rgb(249, 253, 255);
+}
+
+#table3 tr:nth-child(odd) {
+  background-color: rgb(230, 240, 248);
 }
