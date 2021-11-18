@@ -9,23 +9,22 @@ body{
     justify-content: space-between;
 }
 .container1{
-   
     display: flex;
     flex-direction: row;
     width: 50%;
     align-items: center;
     justify-content: center;
+    column-gap: 30px;
 }
 
 .container2{
-   
     display: flex;
     flex-direction: row;
     width: 50%;
     padding-right: 100px;
     align-items: center;
     justify-content: center;
-    
+    column-gap: 20px;
 }
 
 #table1, th, td{
