@@ -6,11 +6,9 @@ body{
     background-color: rgb(230, 240, 248);
     display: flex;
     flex-direction: row;
-    
 }
 
 .container2{
-    background-color:burlywood;
     display: flex;
     flex-direction: row-reverse;
 }
